@@ -90,11 +90,11 @@ do {
   
   //draw red line across screen
   TFTscreen.stroke(255, 0, 0);
-  TFTscreen.line(3, y, myWidth, y);
+  TFTscreen.line(0, y, myWidth, y);
   
-  //erase previous loops red line
+  //erase previous loop's red line
   TFTscreen.stroke(255, 255, 255);    
-  TFTscreen.line(3, y-1, myWidth, y-1);
+  TFTscreen.line(0, y-1, myWidth, y-1);
   
   //print line position
   TFTscreen.stroke(255, 0, 255);
@@ -149,11 +149,11 @@ do {
   
   //draw red line across screen
   TFTscreen.stroke(255, 0, 0);
-  TFTscreen.line(x, 1, x, myHeight);
+  TFTscreen.line(x, 0, x, myHeight);
   
-  //erase previous loops red line
+  //erase previous loop's red line
   TFTscreen.stroke(255, 255, 255);    
-  TFTscreen.line(x-1, 1, x-1, myHeight);
+  TFTscreen.line(x-1, 0, x-1, myHeight);
   
   //print line position
   TFTscreen.stroke(255, 0, 255);
